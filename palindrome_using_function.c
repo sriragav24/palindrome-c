@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 
-void strrev(char* str) { // for reversing a string
+void strrev(char* str) { // creating function strrev for reversing a string..
     int start = 0;        //starting index
     long int end = strlen(str) - 1;  //ending index-1 because ,index starts from 0..
 
